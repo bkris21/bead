@@ -1,8 +1,8 @@
-<img src="assets/images/protoss.PNG" 
+<img src="assets/images/{{model.CurrentPlayer.race}}.PNG" 
      alt="profile" class="avatar pull-left" width="110" height="110">
 
-<h1>Ragelot</h1>
+<h1>{{model.CurrentPlayer.name}}</h1>
 <br>
-<div alt="bronze" class="league bronze medium ach1"></div>
+<div alt="{{model.CurrentPlayer.league}}" class="league {{model.CurrentPlayer.league}} medium ach1"></div>
 
 {{outlet}}

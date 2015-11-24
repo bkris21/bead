@@ -8,6 +8,7 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('profile');
   this.route('history');
+  this.route('new-match');
 });
 
 export default Router;
